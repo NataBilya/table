@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td,th{
+   border: 1px solid black;
+   text-align: left;
+}
+
+.tdcenter{
+    text-align: center;
+}
+
+.tdbold{
+    border: 3px solid black;
+}
