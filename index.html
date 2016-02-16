@@ -8,7 +8,7 @@
         <table>
              <colgroup>
     <col style="background-color: #0f0">
-    <col span="2" row="2">
+    <col span="2">
   </colgroup>
             <tr>
                 <th valign="top" rowspan="2">Summary</th>
@@ -40,6 +40,58 @@
             
     </table>
     
+    <h3>Ordered list example:</h3>
+    <ul type="square">
+        <li>paragraph 1</li>
+        <li>paragraph 2</li>
+        <li>paragraph 3</li>
+    </ul>
+    
+    <ol>
+        <li>paragraph I</li>
+        <li>paragraph II</li>
+        <li>paragraph III</li>
+    </ol>
+    
+    <h3>CheckBoxes example:</h3>
+    <label>
+    <input type="checkbox" name="day" value="Friday" checked>Friday
+    </label>
+    <label>
+    <input type="checkbox" name="day" value="Saturday">Saturday
+    </label>
+    <label>
+    <input type="checkbox" name="day" value="Sunday">Sunday
+    </label>
+    
+    <h3>Form example:</h3>
+    <div id="form"></div>
+    <form id="contact" method="post" action="">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="username" autofocus="autofocus"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone"/>
+        </fieldset>
+        
+        <fieldset>
+            <label for="Questions">Questions</label>
+            <input type="text" name=""/>
+        </fieldset>
+        </form>
+        <input type="submit" name="submit" value="Send">
+        
+    </div>
+   
    
 
     </body>
